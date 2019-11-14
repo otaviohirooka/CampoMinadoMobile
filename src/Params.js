@@ -5,7 +5,7 @@ const Params = {
     borderSize: 5,
     headerRatio: 0.15,
     difficultLevel: 0.1,
-    getColumnAmount() {
+    getColumnsAmount() {
         const width = Dimensions.get('window').width
         return Math.floor(width / this.blockSize)
     },
