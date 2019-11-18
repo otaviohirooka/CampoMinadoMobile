@@ -64,6 +64,8 @@ export default class App extends Component {
     if (won) {
       Alert.alert('Você venceu!','Parabéns!')
     }
+
+    this.setState({ board, won })
   }
 
   onLevelSelected = level => {
